@@ -12,6 +12,6 @@
 
 3) Я хотел увидеть как протестировать opcode оптимайзера в конкретном случае
 
-4) Не только функции из списка ( https://php.watch/articles/php-zend-engine-special-inlined-functions ) стоит использовать через use или с указанием корневого неймспейса. Плюс, наглядно продемонстрировано как это работает, когда этого не делаешь
+4) Не только функции из списка ( [https://php.watch/articles/php-zend-engine-special-inlined-functions](https://php.watch/articles/php-zend-engine-special-inlined-functions) ) стоит использовать через use или с указанием корневого неймспейса. Плюс, наглядно продемонстрировано как это работает, когда этого не делаешь
 
 Ссылка на [мой телеграм канал](https://t.me/programming_ionov) (только что завел) с этим постом и обсуждениями
