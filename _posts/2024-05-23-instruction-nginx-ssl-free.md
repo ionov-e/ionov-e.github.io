@@ -1,12 +1,8 @@
 ---
 title: Установка бесплатного SSL (Nginx)
-description: #tips #ssl #nginx #https #server #linux
+description: '#tips #ssl #nginx #https #server #linux'
 layout: post
 ---
-# Установка бесплатного SSL (Nginx)
-
-_#tips #ssl #nginx #https #server #linux_
-
 1. В моем случае я генерировал здесь: https://www.sslforfree.com/
 2. Сразу ввести свой домен в строку для получения SSL мне не удалось. Пришлось сначала зарегистрироваться, затем залогиниться
 3. Оказавшись здесь https://manage.sslforfree.com/dashboard нажимаю на **New Certificate**

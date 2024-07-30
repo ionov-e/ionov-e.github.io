@@ -3,10 +3,6 @@ title: Про OPCodes и способы дампа (PHP)
 description: '#php #opcode #perfomance'
 layout: post
 ---
-# Про OPCodes и способы дампа (PHP)
-
-_#php #opcode #perfomance_
-
 <img src="/assets/2024-07-29-php-inspecting-opcodes-header.jpg" alt="PHP Performance" width="500">
 
 Мне очень понравилась статейка: [https://php.watch/articles/php-dump-opcodes](https://php.watch/articles/php-dump-opcodes). Особенно с раздела **Inspecting OPCodes**.

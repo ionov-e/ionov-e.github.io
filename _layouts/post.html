@@ -18,12 +18,15 @@
 
 <header class="page-header" role="banner">
     <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-    <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+    <h2 class="project-tagline">Заметки, ссылки для внутреннего пользования</h2>
     <a href="/" class="btn">На главную</a>
     <a href="https://t.me/programming_ionov" class="btn">Мой Телеграм-канал</a>
 </header>
 
 <main id="content" class="main-content" role="main">
+    <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+    <p><em>{{ page.description | default: "#php"}}</em></p>
+
     {{ content }}
 
     <footer class="site-footer">
