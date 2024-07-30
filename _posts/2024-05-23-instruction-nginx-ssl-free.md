@@ -1,3 +1,8 @@
+---
+title: Установка бесплатного SSL (Nginx)
+description: #tips #ssl #nginx #https #server #linux
+layout: post
+---
 # Установка бесплатного SSL (Nginx)
 
 _#tips #ssl #nginx #https #server #linux_
@@ -5,7 +10,7 @@ _#tips #ssl #nginx #https #server #linux_
 1. В моем случае я генерировал здесь: https://www.sslforfree.com/
 2. Сразу ввести свой домен в строку для получения SSL мне не удалось. Пришлось сначала зарегистрироваться, затем залогиниться
 3. Оказавшись здесь https://manage.sslforfree.com/dashboard нажимаю на **New Certificate**
-![ssl-1-free-1](/instruction-nginx-ssl-free/01h.png)
+![ssl-1-free-1](/assets/2024-05-23-instruction-nginx-ssl-free-01h.png)
 4. Вводил домен без **www** - все равно добавляет и на такой домен;
     
     Вместо года - бесплатный вариант на **90 дней**;
@@ -14,8 +19,8 @@ _#tips #ssl #nginx #https #server #linux_
 
     В итоге выбираешь бесплатный вариант.
 5. Владение домена можно подтверждать разными способами.
-    Я через DNS-запись. На примере hostland.ru: Значение поля **Name** в **Имя**; **Point To** в **Значение**, **TTL** вводить было некуда 
-   ![ssl-1-free-1](/instruction-nginx-ssl-free/02h.png)
+    Я через DNS-запись. На примере hostland.ru: Значение поля **Name** в **Имя**; **Point To** в **Значение**, **TTL** вводить было некуда
+![ssl-1-free-2](/assets/2024-05-23-instruction-nginx-ssl-free-02h.png)
 6. Качаю полученный архив с тремя файлами, и заливаю их на сервер.
 7. Захожу в соответствующий для сайта конфигурационный файл nginx для сайта. Предположительно будет в папке: **/etc/nginx/sites-available/**
 8. Меняем содержимое, чтобы внутри **server {}** оказались ссылки на твои файлы. На третий файл (в названии фигурирует **bundle** ссылку не нужно делать нигде).
