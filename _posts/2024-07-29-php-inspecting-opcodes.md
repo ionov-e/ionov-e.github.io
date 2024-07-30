@@ -1,11 +1,11 @@
 ---
 title: Про OPCodes и способы дампа (PHP)
-description: #php #opcode #perfomance
+description: '#php #opcode #perfomance'
 layout: post
 ---
 # Про OPCodes и способы дампа (PHP)
 
-#php #opcode #perfomance
+_#php #opcode #perfomance_
 
 <img src="/assets/2024-07-29-php-inspecting-opcodes-header.jpg" alt="PHP Performance" width="500">
 
