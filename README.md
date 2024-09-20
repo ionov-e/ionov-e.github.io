@@ -11,6 +11,10 @@
 
   _#php #memory #garbage-collector #weak-reference #weak-map_
 
+- Моя статья на хабре:  [Схематично, простыми словами о внутреннем устройстве PHP (Zend Engine, OPCache, JIT)](https://habr.com/ru/articles/844768/)
+
+  _#php #zend-engine #opcache #jit #compilation #execution_
+
 ## Сервер
 - [Установка бесплатного SSL](_posts/2024-05-23-instruction-nginx-ssl-free.md)
 
